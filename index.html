@@ -17,6 +17,7 @@
                 var camera;
                 var renderer;
                 var tetera;
+                var object;
                 init();
 
                 function init(){
@@ -25,11 +26,12 @@
                     $("#stage").append(renderer.domElement);
                     scene = new THREE.Scene();
                     createCamera();
-                    createTetera();
+                    createMuñeco();
+                    //createTetera();
                     render();
                 }
                 
-                function createTetera(){
+                function createMuñeco(){
                 var loader = new THREE.GLTFLoader();
                 loader.load('https://cdn.jsdelivr.net/gh/siouxcitizen/3DModel@a1c2e47550ca20de421f6d779229f66efab07830/yuusha.gltf',
                 function ( gltf ) {
@@ -40,6 +42,22 @@
                     });
                 }
 
+                function createTetera(){
+                    var loader = new THREE.ObjectLoader();
+                    loader.load('resources/tetera.obj',
+	                    function ( object ) {
+                            scene.add( object );
+	            },
+                        function ( xhr ) {
+                            console.log( ( xhr.loaded / xhr.total * 100 ) + '% loaded' );
+                        },
+                        function ( error ) {
+
+                            console.log( 'An error happened' );
+
+                        }
+                    );
+                }
 
                 function createCamera(){
                     camera = new THREE.PerspectiveCamera(120, window.innerWidth / window.innerHeight , 0.5 , 1000);
