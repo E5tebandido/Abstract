@@ -1,0 +1,212 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 3336,
+            "max" : [
+                1635
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1636,
+            "max" : [
+                8.0,
+                3.0,
+                -0.0
+            ],
+            "min" : [
+                -6.0,
+                -5.0,
+                -14.0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1636,
+            "max" : [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min" : [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 1636,
+            "max" : [
+                0.9941409826278687,
+                0.5
+            ],
+            "min" : [
+                0.0019531298894435167,
+                0.5
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 6672,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 19632,
+            "byteOffset" : 6672,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 19632,
+            "byteOffset" : 26304,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13088,
+            "byteOffset" : 45936,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 59024,
+            "uri" : "yuusha.bin"
+        }
+    ],
+    "images" : [
+        {
+            "name" : "yuusha",
+            "uri" : "yuusha.jpg"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "palette",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                ],
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0.0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "yuusha",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 0,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.48170700669288635,
+                0.3342514932155609,
+                -0.21292175352573395,
+                0.7816000580787659
+            ],
+            "scale" : [
+                1.0,
+                1.0,
+                0.9999998807907104
+            ],
+            "translation" : [
+                7.481131553649902,
+                5.34366512298584,
+                6.5076398849487305
+            ]
+        },
+        {
+            "name" : "Lamp",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558802962303162,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "scale" : [
+                1.0,
+                1.0,
+                0.9999998807907104
+            ],
+            "translation" : [
+                0.026395320892333984,
+                5.903861999511719,
+                3.080349922180176
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "yuusha",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.19999998807907104,
+                0.19999998807907104,
+                0.19999998807907104
+            ]
+        }
+    ],
+    "samplers" : [
+        {}
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                2,
+                1,
+                0
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ]
+}
