@@ -5,6 +5,6 @@
 ¡Anything here it's related!
 https://teban18.github.io/Abstract/
 
-Just models into a background
+Just 3D models into a background
 ![imagen](https://user-images.githubusercontent.com/44687875/211903389-a07cbd97-436b-4391-8294-1f8e6830f116.png)
 
