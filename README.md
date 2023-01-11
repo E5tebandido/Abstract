@@ -2,7 +2,7 @@
 
 [![CrazyMadMarge](https://cdn3.emoji.gg/emojis/4536-crazymadmarge.png)](https://emoji.gg/emoji/4536-crazymadmarge)
 
-¡Anything here it's related!
+¡Nothing here it's related!
 https://teban18.github.io/Abstract/
 
 Just 3D models into a background
